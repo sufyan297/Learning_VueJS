@@ -36,14 +36,6 @@
     <h5>Enter Your Name: </h5>
     <input type="text" v-model="name"/>
     <h4>Your Name is {{name}}</h4>
-
-    <ol>
-        <todo
-          v-for="country in countries"
-          v-bind:data="country"
-          v-bind:key="country.key"
-        ></todo>
-      </ol>
   
   </div>
 
