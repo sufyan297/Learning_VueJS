@@ -4,7 +4,7 @@ var tap_app = new Vue({
     count: 1
   },
   methods: {
-    onTap: function() {
+    onTap() {
       this.count = this.count + 1;
     }
   }
